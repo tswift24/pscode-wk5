@@ -24,7 +24,26 @@ b) Calculate the average of the five numbers.
 c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
 d) Write out the results found from steps b and c with a message describing what they are
 
+a) 
 numbers = num1, num2, num3, num4, num5
-num1 + num2 + num3 + num4 + num5 / 5 = result
-print result "This is average"
+
+b) 
+num1 + num2 + num3 + num4 + num5 / 5 = average
+
+c) 
+minimum = num1
+for each number in numbers
+if number < minimum 
+minimum = number
+
+maximum = num1 
+for each number in numbers
+if number > maximum 
+maximum = number
+
+d)
+print average "this is average of the nuumbers"
+print minimum "this is the smallest number"
+print maximum "this is the largest number"
+
 -- END --
