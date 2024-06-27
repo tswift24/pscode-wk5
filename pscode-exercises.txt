@@ -42,7 +42,7 @@ if number > maximum
 maximum = number
 
 d)
-print average "this is average of the nuumbers"
+print average "this is the average of the nuumbers"
 print minimum "this is the smallest number"
 print maximum "this is the largest number"
 
